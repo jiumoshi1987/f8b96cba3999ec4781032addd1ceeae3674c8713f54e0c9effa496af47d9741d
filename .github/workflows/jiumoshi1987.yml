@@ -1,24 +1,26 @@
 name: jiumoshi1987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 * * * *'
-
-jobs:  # 32663
+    - cron: '10 * * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiumoshi1987
         env:
-          jqxlh72179: ${{ secrets.jqxlh72179 }}
+          ygybx61: ${{ secrets.ygybx61 }}
         run: |
-          echo $jqxlh72179 | jq -r .pk61232 | /bin/bash
-          echo $qxady703 | jq -r .j274 | /bin/bash
-          echo $lq7076 | jq -r .a955 | /bin/bash
-          echo $tw121 | jq -r .pn42182 | /bin/bash
-          echo $uj2245 | jq -r .io12534 | /bin/bash
-          echo $xnqkb91 | jq -r .yn918 | /bin/bash
+          echo $ygybx61 | jq -r .onsgn49 | /bin/bash
+          echo $lvx35071 | jq -r .nrx1 | /bin/bash
+          echo $jm4085 | jq -r .uko14041 | /bin/bash
+          echo $co530 | jq -r .ax41079 | /bin/bash
+          echo $i94 | jq -r .cqpjy01 | /bin/bash
+          echo $od998 | jq -r .kovm88 | /bin/bash
+          echo $oaq070 | jq -r .uakv37752 | /bin/bash
+          echo $rs10 | jq -r .i9904 | /bin/bash
+          echo $gqein69082 | jq -r .cfmcm6766 | /bin/bash
+          echo $vlvo779 | jq -r .l51952 | /bin/bash
+          echo $ssdxc3 | jq -r .pohbk6478 | /bin/bash
 
